@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+
+
+nav ul{
+        display: flex;
+        font-family: sans-serif;
+        height: 65px;
+    list-style: none;
+    background: #000;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 22px;
+    color: aliceblue;
+}
+
+.brand img{
+width: 75px;
+}
+
+.container{
+    min-height: 75vh;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+
+}
